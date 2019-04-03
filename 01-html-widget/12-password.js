@@ -1,0 +1,1 @@
+$(function(){var a=$("#pwd-normal"),t=$("#pwd-display"),n=$("#test-button");a.keydown(function(){t.val(a.val())}),n.click(function(){var t,n=a.val();t=n.length<6?"你的密码长度少于六位，强度较弱！":0==/[a-zA-Z]/.test(n)?"你的密码只包含数字，强度较弱!":0==/\d/.test(n)?"你的密码只包含字母，强度较弱！":"你的密码很强壮！",alert(t)})});

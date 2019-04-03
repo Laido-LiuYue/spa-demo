@@ -1,0 +1,1 @@
+$(function(){var c=$("#alert"),t=$("#prompt"),i=$("#confirm"),n=$("#msg");c.click(function(){alert("JavaScript 是一门伟大的编程语言！")}),t.click(function(){var c=prompt("请输入你的身份证号："),t=""===c?"你的身份信息呢？":"你的身份证号是："+c;n.html(t)}),i.click(function(){var c=confirm("你打算考研吗？")?"研路漫漫，我来陪你!":"去职场丰富经验吧!";n.html(c)})});

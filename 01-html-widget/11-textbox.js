@@ -1,0 +1,1 @@
+$(function(){$("#ok-button").click(function(){var a="";a+="姓名："+$("#name").val()+"\n",a+="学历："+$("#study").val()+"\n",a+="生日："+$("#birth").val()+"\n",a+="手机："+$("#tell").val()+"\n",a+="邮箱："+$("#email").val()+"\n",a+="网址："+$("#url").val()+"\n",a+="简介："+$("textarea").val(),alert(a)})});
